@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="00ea46ed-0da7-4b6a-b19c-54ddc8e727e4" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1POvs7Ct6X0W5XrvplZhBKd1FLH" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/pyimagesearch/nn" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.keras_cifar10">
+    <configuration name="keras_cifar10" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="cv" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/keras_cifar10.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="keras_mnist" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="cv" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/keras_mnist.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="nn_mnist" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="cv" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/nn_mnist.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="nn_xor" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="cv" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/nn_xor.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="perceptron_xor" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="cv" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/perceptron_xor.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.perceptron_xor" />
+      <item itemvalue="Python.nn_xor" />
+      <item itemvalue="Python.nn_mnist" />
+      <item itemvalue="Python.keras_mnist" />
+      <item itemvalue="Python.keras_cifar10" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.keras_cifar10" />
+        <item itemvalue="Python.keras_mnist" />
+        <item itemvalue="Python.nn_mnist" />
+        <item itemvalue="Python.nn_xor" />
+        <item itemvalue="Python.perceptron_xor" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="00ea46ed-0da7-4b6a-b19c-54ddc8e727e4" name="Default Changelist" comment="" />
+      <created>1556485962565</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1556485962565</updated>
+      <workItem from="1556485963794" duration="3396000" />
+      <workItem from="1557529793531" duration="9000" />
+      <workItem from="1557529827508" duration="281000" />
+      <workItem from="1559280463155" duration="129000" />
+      <workItem from="1560053525182" duration="1468000" />
+      <workItem from="1565758161873" duration="1865000" />
+      <workItem from="1565924505773" duration="8890000" />
+      <workItem from="1567291266019" duration="106000" />
+      <workItem from="1567291390259" duration="13000" />
+      <workItem from="1567291411613" duration="1077000" />
+      <workItem from="1571379466707" duration="23000" />
+      <workItem from="1571379512837" duration="1365000" />
+      <workItem from="1573107761607" duration="41000" />
+      <workItem from="1573107813125" duration="4099000" />
+      <workItem from="1575457312794" duration="581000" />
+      <workItem from="1577774913606" duration="50000" />
+      <workItem from="1577775194355" duration="1412000" />
+      <workItem from="1577934824833" duration="13801000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="324" y="393" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578116525690">
+      <screen x="0" y="23" width="3440" height="1417" />
+    </state>
+    <state x="324" y="393" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.3440.1417@0.23.3440.1417" timestamp="1578116525690" />
+    <state x="587" y="541" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1578288333980">
+      <screen x="0" y="23" width="3440" height="1417" />
+    </state>
+    <state x="587" y="541" key="#com.intellij.fileTypes.FileTypeChooser/0.23.3440.1417@0.23.3440.1417" timestamp="1578288333980" />
+    <state width="1678" height="408" key="GridCell.Tab.0.bottom" timestamp="1578382011414">
+      <screen x="0" y="23" width="3440" height="1417" />
+    </state>
+    <state width="1678" height="408" key="GridCell.Tab.0.bottom/0.23.3440.1417@0.23.3440.1417" timestamp="1578382011414" />
+    <state width="1678" height="408" key="GridCell.Tab.0.center" timestamp="1578382011414">
+      <screen x="0" y="23" width="3440" height="1417" />
+    </state>
+    <state width="1678" height="408" key="GridCell.Tab.0.center/0.23.3440.1417@0.23.3440.1417" timestamp="1578382011414" />
+    <state width="1678" height="408" key="GridCell.Tab.0.left" timestamp="1578382011413">
+      <screen x="0" y="23" width="3440" height="1417" />
+    </state>
+    <state width="1678" height="408" key="GridCell.Tab.0.left/0.23.3440.1417@0.23.3440.1417" timestamp="1578382011413" />
+    <state width="1678" height="408" key="GridCell.Tab.0.right" timestamp="1578382011414">
+      <screen x="0" y="23" width="3440" height="1417" />
+    </state>
+    <state width="1678" height="408" key="GridCell.Tab.0.right/0.23.3440.1417@0.23.3440.1417" timestamp="1578382011414" />
+    <state width="1678" height="501" key="GridCell.Tab.1.bottom" timestamp="1578271868726">
+      <screen x="0" y="23" width="3440" height="1417" />
+    </state>
+    <state width="1678" height="501" key="GridCell.Tab.1.bottom/0.23.3440.1417@0.23.3440.1417" timestamp="1578271868726" />
+    <state width="1678" height="501" key="GridCell.Tab.1.center" timestamp="1578271868725">
+      <screen x="0" y="23" width="3440" height="1417" />
+    </state>
+    <state width="1678" height="501" key="GridCell.Tab.1.center/0.23.3440.1417@0.23.3440.1417" timestamp="1578271868725" />
+    <state width="1678" height="501" key="GridCell.Tab.1.left" timestamp="1578271868725">
+      <screen x="0" y="23" width="3440" height="1417" />
+    </state>
+    <state width="1678" height="501" key="GridCell.Tab.1.left/0.23.3440.1417@0.23.3440.1417" timestamp="1578271868725" />
+    <state width="1678" height="501" key="GridCell.Tab.1.right" timestamp="1578271868725">
+      <screen x="0" y="23" width="3440" height="1417" />
+    </state>
+    <state width="1678" height="501" key="GridCell.Tab.1.right/0.23.3440.1417@0.23.3440.1417" timestamp="1578271868725" />
+    <state x="369" y="370" key="SettingsEditor" timestamp="1578118649125">
+      <screen x="0" y="23" width="3440" height="1417" />
+    </state>
+    <state x="369" y="370" key="SettingsEditor/0.23.3440.1417@0.23.3440.1417" timestamp="1578118649125" />
+    <state x="539" y="564" key="com.intellij.ide.util.TipDialog" timestamp="1577934825835">
+      <screen x="0" y="23" width="3440" height="1417" />
+    </state>
+    <state x="539" y="564" key="com.intellij.ide.util.TipDialog/0.23.3440.1417@0.23.3440.1417" timestamp="1577934825835" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file:///Volumes/Secondary/Projects/deep-computer-vision/pyimagesearch/nn/neuralnetwork.py</url>
+          <line>40</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-defaults>
+        <breakpoint type="python-line" />
+      </breakpoints-defaults>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/deep_computer_vision$nn_mnist.coverage" NAME="nn_mnist Coverage Results" MODIFIED="1578289792511" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/deep_computer_vision$nn_xor.coverage" NAME="nn_xor Coverage Results" MODIFIED="1578288267342" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/deep_computer_vision$linear_example.coverage" NAME="linear_example Coverage Results" MODIFIED="1577945701129" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/deep_computer_vision$gradient_descent.coverage" NAME="gradient_descent Coverage Results" MODIFIED="1577948297655" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/deep_computer_vision$keras_cifar10.coverage" NAME="keras_cifar10 Coverage Results" MODIFIED="1578382011409" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/deep_computer_vision$perceptron_or.coverage" NAME="perceptron_or Coverage Results" MODIFIED="1578116864408" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/deep_computer_vision$knn.coverage" NAME="knn Coverage Results" MODIFIED="1577935325968" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/deep_computer_vision$regularization.coverage" NAME="regularization Coverage Results" MODIFIED="1578116491304" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/deep_computer_vision$perceptron_and.coverage" NAME="perceptron_and Coverage Results" MODIFIED="1578118844229" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/deep_computer_vision$keras_mnist.coverage" NAME="keras_mnist Coverage Results" MODIFIED="1578290702049" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/cv$knn.coverage" NAME="knn Coverage Results" MODIFIED="1561009817069" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/deep_computer_vision$sgd.coverage" NAME="sgd Coverage Results" MODIFIED="1577949879609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/deep_computer_vision$perceptron_xor.coverage" NAME="perceptron_xor Coverage Results" MODIFIED="1578118866681" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
