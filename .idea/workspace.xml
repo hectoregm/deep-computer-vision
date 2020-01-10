@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="00ea46ed-0da7-4b6a-b19c-54ddc8e727e4" name="Default Changelist" comment="" />
+    <list default="true" id="00ea46ed-0da7-4b6a-b19c-54ddc8e727e4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convolutions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyimagesearch/nn/conv/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyimagesearch/nn/conv/shallownet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyimagesearch/preprocessing/imagetoarrayppreprocessor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shallownet_animals.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras_cifar10.png" beforeDir="false" afterPath="$PROJECT_DIR$/keras_cifar10.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyimagesearch/nn/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/pyimagesearch/nn/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyimagesearch/preprocessing/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/pyimagesearch/preprocessing/__init__.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,13 +39,18 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1POvs7Ct6X0W5XrvplZhBKd1FLH" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -55,7 +71,29 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.keras_cifar10">
+  <component name="RunManager" selected="Python.shallownet_animals">
+    <configuration name="convolutions" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="cv" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/convolutions.py" />
+      <option name="PARAMETERS" value="--image jemma.png" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="keras_cifar10" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="cv" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -122,7 +160,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="nn_xor" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="shallownet_animals" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="cv" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -135,30 +173,8 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/nn_xor.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="perceptron_xor" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="cv" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/perceptron_xor.py" />
-      <option name="PARAMETERS" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/shallownet_animals.py" />
+      <option name="PARAMETERS" value="--dataset datasets/animals" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -167,19 +183,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.perceptron_xor" />
-      <item itemvalue="Python.nn_xor" />
       <item itemvalue="Python.nn_mnist" />
       <item itemvalue="Python.keras_mnist" />
       <item itemvalue="Python.keras_cifar10" />
+      <item itemvalue="Python.convolutions" />
+      <item itemvalue="Python.shallownet_animals" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.shallownet_animals" />
         <item itemvalue="Python.keras_cifar10" />
+        <item itemvalue="Python.convolutions" />
         <item itemvalue="Python.keras_mnist" />
         <item itemvalue="Python.nn_mnist" />
-        <item itemvalue="Python.nn_xor" />
-        <item itemvalue="Python.perceptron_xor" />
       </list>
     </recent_temporary>
   </component>
@@ -222,7 +238,7 @@
       <workItem from="1575457312794" duration="581000" />
       <workItem from="1577774913606" duration="50000" />
       <workItem from="1577775194355" duration="1412000" />
-      <workItem from="1577934824833" duration="13801000" />
+      <workItem from="1577934824833" duration="19860000" />
     </task>
     <servers />
   </component>
@@ -230,30 +246,30 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="324" y="393" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578116525690">
+    <state x="324" y="393" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578642400543">
       <screen x="0" y="23" width="3440" height="1417" />
     </state>
-    <state x="324" y="393" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.3440.1417@0.23.3440.1417" timestamp="1578116525690" />
+    <state x="324" y="393" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.3440.1417@0.23.3440.1417" timestamp="1578642400543" />
     <state x="587" y="541" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1578288333980">
       <screen x="0" y="23" width="3440" height="1417" />
     </state>
     <state x="587" y="541" key="#com.intellij.fileTypes.FileTypeChooser/0.23.3440.1417@0.23.3440.1417" timestamp="1578288333980" />
-    <state width="1678" height="408" key="GridCell.Tab.0.bottom" timestamp="1578382011414">
+    <state width="1678" height="408" key="GridCell.Tab.0.bottom" timestamp="1578642605385">
       <screen x="0" y="23" width="3440" height="1417" />
     </state>
-    <state width="1678" height="408" key="GridCell.Tab.0.bottom/0.23.3440.1417@0.23.3440.1417" timestamp="1578382011414" />
-    <state width="1678" height="408" key="GridCell.Tab.0.center" timestamp="1578382011414">
+    <state width="1678" height="408" key="GridCell.Tab.0.bottom/0.23.3440.1417@0.23.3440.1417" timestamp="1578642605385" />
+    <state width="1678" height="408" key="GridCell.Tab.0.center" timestamp="1578642605385">
       <screen x="0" y="23" width="3440" height="1417" />
     </state>
-    <state width="1678" height="408" key="GridCell.Tab.0.center/0.23.3440.1417@0.23.3440.1417" timestamp="1578382011414" />
-    <state width="1678" height="408" key="GridCell.Tab.0.left" timestamp="1578382011413">
+    <state width="1678" height="408" key="GridCell.Tab.0.center/0.23.3440.1417@0.23.3440.1417" timestamp="1578642605385" />
+    <state width="1678" height="408" key="GridCell.Tab.0.left" timestamp="1578642605384">
       <screen x="0" y="23" width="3440" height="1417" />
     </state>
-    <state width="1678" height="408" key="GridCell.Tab.0.left/0.23.3440.1417@0.23.3440.1417" timestamp="1578382011413" />
-    <state width="1678" height="408" key="GridCell.Tab.0.right" timestamp="1578382011414">
+    <state width="1678" height="408" key="GridCell.Tab.0.left/0.23.3440.1417@0.23.3440.1417" timestamp="1578642605384" />
+    <state width="1678" height="408" key="GridCell.Tab.0.right" timestamp="1578642605385">
       <screen x="0" y="23" width="3440" height="1417" />
     </state>
-    <state width="1678" height="408" key="GridCell.Tab.0.right/0.23.3440.1417@0.23.3440.1417" timestamp="1578382011414" />
+    <state width="1678" height="408" key="GridCell.Tab.0.right/0.23.3440.1417@0.23.3440.1417" timestamp="1578642605385" />
     <state width="1678" height="501" key="GridCell.Tab.1.bottom" timestamp="1578271868726">
       <screen x="0" y="23" width="3440" height="1417" />
     </state>
@@ -297,9 +313,11 @@
     <SUITE FILE_PATH="coverage/deep_computer_vision$nn_mnist.coverage" NAME="nn_mnist Coverage Results" MODIFIED="1578289792511" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/deep_computer_vision$nn_xor.coverage" NAME="nn_xor Coverage Results" MODIFIED="1578288267342" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/deep_computer_vision$linear_example.coverage" NAME="linear_example Coverage Results" MODIFIED="1577945701129" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/deep_computer_vision$convolutions.coverage" NAME="convolutions Coverage Results" MODIFIED="1578469836680" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/deep_computer_vision$gradient_descent.coverage" NAME="gradient_descent Coverage Results" MODIFIED="1577948297655" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/deep_computer_vision$keras_cifar10.coverage" NAME="keras_cifar10 Coverage Results" MODIFIED="1578382011409" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/deep_computer_vision$keras_cifar10.coverage" NAME="keras_cifar10 Coverage Results" MODIFIED="1578642151390" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/deep_computer_vision$perceptron_or.coverage" NAME="perceptron_or Coverage Results" MODIFIED="1578116864408" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/deep_computer_vision$shallownet_animals.coverage" NAME="shallownet_animals Coverage Results" MODIFIED="1578642605381" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/deep_computer_vision$knn.coverage" NAME="knn Coverage Results" MODIFIED="1577935325968" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/deep_computer_vision$regularization.coverage" NAME="regularization Coverage Results" MODIFIED="1578116491304" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/deep_computer_vision$perceptron_and.coverage" NAME="perceptron_and Coverage Results" MODIFIED="1578118844229" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
