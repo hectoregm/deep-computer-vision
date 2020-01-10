@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00ea46ed-0da7-4b6a-b19c-54ddc8e727e4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/convolutions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pyimagesearch/nn/conv/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pyimagesearch/nn/conv/shallownet.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pyimagesearch/preprocessing/imagetoarrayppreprocessor.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shallownet_animals.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/keras_cifar10.png" beforeDir="false" afterPath="$PROJECT_DIR$/keras_cifar10.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyimagesearch/nn/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/pyimagesearch/nn/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyimagesearch/preprocessing/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/pyimagesearch/preprocessing/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyimagesearch/nn/conv/shallownet.py" beforeDir="false" afterPath="$PROJECT_DIR$/pyimagesearch/nn/conv/shallownet.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -238,7 +229,7 @@
       <workItem from="1575457312794" duration="581000" />
       <workItem from="1577774913606" duration="50000" />
       <workItem from="1577775194355" duration="1412000" />
-      <workItem from="1577934824833" duration="19860000" />
+      <workItem from="1577934824833" duration="20143000" />
     </task>
     <servers />
   </component>
