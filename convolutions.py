@@ -3,6 +3,7 @@ import numpy as np
 import argparse
 import cv2
 
+
 def convolve(image, K):
     (iH, iW) = image.shape[:2]
     (kH, kW) = K.shape[:2]

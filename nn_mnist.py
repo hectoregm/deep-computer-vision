@@ -17,6 +17,7 @@ trainY = LabelBinarizer().fit_transform(trainY)
 testY = LabelBinarizer().fit_transform(testY)
 
 print("[INFO] training network...")
+print(trainX.shape)
 nn = NeuralNetwork([trainX.shape[1], 32, 16, 10])
 print("[INFO] {}".format(nn))
 nn.fit(trainX, trainY, epochs=1000)

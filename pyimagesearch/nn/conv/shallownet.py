@@ -5,6 +5,7 @@ from tensorflow.keras.layers import Flatten
 from tensorflow.keras.layers import Dense
 from tensorflow.keras import backend as K
 
+
 class ShallowNet:
     @staticmethod
     def build(width, height, depth, classes):
