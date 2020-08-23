@@ -13,7 +13,7 @@ import cv2
 
 ap = argparse.ArgumentParser()
 ap.add_argument("-i", "--image", required=True, help="path to the input image")
-ap.add_argument("-m", "--model", type=str, default="vgg16", help="name of pre-trained network")
+ap.add_argument("-m", "--model", type=str, default="vgg19", help="name of pre-trained network")
 args = vars(ap.parse_args())
 
 MODELS = {
