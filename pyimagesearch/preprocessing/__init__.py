@@ -1,2 +1,3 @@
 from .simplepreprocessor import SimplePreprocessor
 from .imagetoarrayppreprocessor import ImageToArrayPreprocessor
+from .aspectawarepreprocessor import AspectAwarePreprocessor
