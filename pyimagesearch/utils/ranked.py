@@ -13,7 +13,7 @@ def rank5_accuracy(preds, labels):
         if gt == p[0]:
             rank1 += 1
 
-        rank1 /= float(len(preds))
-        rank5 /= float(len(preds))
+    rank1 /= float(len(preds))
+    rank5 /= float(len(preds))
 
     return (rank1, rank5)
