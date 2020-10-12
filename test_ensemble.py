@@ -16,6 +16,9 @@ testX = testX.astype("float") / 255.0
 
 labelNames = ["airplanes", "automobile", "bird", "cat", "deer", "dog", "frog", "horse", "ship", "truck"]
 
+lb = LabelBinarizer()
+testY = lb.fit_transform(testY)
+
 modelPaths = os.path.sep.join([args["models"], "*.model"])
 modelPaths = list(glob.glob(modelPaths))
 models = []
