@@ -1,4 +1,4 @@
-simport matplotlib
+import matplotlib
 matplotlib.use("Agg")
 
 from sklearn.preprocessing import LabelBinarizer
