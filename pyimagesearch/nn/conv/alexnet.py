@@ -13,7 +13,7 @@ class AlexNet:
 
     @staticmethod
     def build(width, height, depth, classes, reg=0.0002):
-        model = Sequential
+        model = Sequential()
         inputShape = (height, width, depth)
         chanDim = -1
 
