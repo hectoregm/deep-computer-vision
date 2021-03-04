@@ -21,26 +21,26 @@ class HDF5DatasetGenerator:
                 images = self.db["images"][i: i + self.batchSize]
                 labels = self.db["labels"][i: i + self.batchSize]
 
-            if self.binarize:
-                labels = to_categorical(labels, self.classes)
+                if self.binarize:
+                    labels = to_categorical(labels, self.classes)
 
-            if self.preprocessors is not None:
-                procImages = []
+                if self.preprocessors is not None:
+                    procImages = []
 
-                for image in images:
-                    for p in self.preprocessors:
-                        image = p.preprocess(image)
+                    for image in images:
+                        for p in self.preprocessors:
+                            image = p.preprocess(image)
 
-                    procImages.append(image)
+                        procImages.append(image)
 
-                images = np.array(procImages)
+                    images = np.array(procImages)
 
-            if self.aug is not None:
-                (images, labels) = next(self.aug.flow(images, labels, batch_size=self.batchSize))
+                if self.aug is not None:
+                    (images, labels) = next(self.aug.flow(images, labels, batch_size=self.batchSize))
 
-            yield (images, labels)
+                yield (images, labels)
 
-        epochs += 1
+            epochs += 1
 
     def close(self):
         self.db.close()
