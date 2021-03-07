@@ -20,7 +20,11 @@ ap = argparse.ArgumentParser()
 ap.add_argument("-c", "--checkpoints", required=True, help="path to output checkpoint directory")
 ap.add_argument("-m", "--model", type=str, help="path to specific model checkpoint to load")
 ap.add_argument("-s", "--start-epoch", type=int, default=0, help="epoch to restart training at")
+ap.add_argument("-e", "--epochs", type=int, default=10, help="number of epochs")
+ap.add_argument("-r", "--rate", type=str, default="1e-3", help="learning rate")
+
 args = vars(ap.parse_args())
+lr = float(args["rate"])
 
 aug = ImageDataGenerator(rotation_range=18, zoom_range=0.15, width_shift_range=0.2, height_shift_range=0.2,
                          shear_range=0.15, horizontal_flip=True, fill_mode="nearest")
@@ -37,14 +41,14 @@ valGen = HDF5DatasetGenerator(config.VAL_HDF5, 64, preprocessors=[sp, mp, iap], 
 if args["model"] is None:
     print("[INFO] compiling model...")
     model = DeeperGoogLeNet.build(width=64, height=64, depth=3, classes=config.NUM_CLASSES, reg=0.0002)
-    opt = Adam(1e-3)
+    opt = Adam(lr)
     model.compile(loss="categorical_crossentropy", optimizer=opt, metrics=["accuracy"])
 else:
     print("[INFO] loading {}...".format(args["model"]))
     model = load_model(args["model"])
 
     print("[INFO] old learning rate: {}".format(K.get_value(model.optimizer.lr)))
-    K.set_value(model.optimizer.lr, 1e-5)
+    K.set_value(model.optimizer.lr, lr)
     print("[INFO] new learning rate: {}".format(K.get_value(model.optimizer.lr)))
 
 callbacks = [
@@ -57,7 +61,7 @@ model.fit_generator(
     steps_per_epoch=trainGen.numImages // 64,
     validation_data=valGen.generator(),
     validation_steps=valGen.numImages // 64,
-    epochs = 10,
+    epochs=args["epochs"],
     max_queue_size=10,
     callbacks=callbacks,
     verbose=1
