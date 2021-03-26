@@ -17,7 +17,7 @@ trainLabels = le.fit_transform(trainLabels)
 split = train_test_split(trainPaths, trainLabels, test_size=config.NUM_TEST_IMAGES, stratify=trainLabels, random_state=42)
 (trainPaths, testPaths, trainLabels, testLabels) = split
 
-M = open(config.VALa_MAPPINGS).read().strip().split("\n")
+M = open(config.VAL_MAPPINGS).read().strip().split("\n")
 M = [r.split("\t")[:2] for r in M]
 valPaths = [os.path.sep.join([config.VAL_IMAGES, m[0]]) for m in M]
 valLabels = le.transform([m[1] for m in M])
