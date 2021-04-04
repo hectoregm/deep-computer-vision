@@ -43,7 +43,7 @@ class ResNet:
         chanDim = -1
 
         if K.image_data_format() == 'channels_first':
-            inputShape = (depth, height, depth)
+            inputShape = (depth, height, width)
             chanDim = 1
 
         inputs = Input(shape=inputShape)
