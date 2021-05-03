@@ -28,7 +28,7 @@ for (dType, paths, labels, outputPath) in datasets:
     print("[INFO] building {}...".format(outputPath))
     f = open(outputPath, "w")
 
-    widgets = ["Building list", progressbar.Percentage(), " ", progressbar.Bar(), " ", progressbar.ETA()]
+    widgets = ["Building List: ", progressbar.Percentage(), " ", progressbar.Bar(), " ", progressbar.ETA()]
     pbar = progressbar.ProgressBar(maxval=len(paths), widgets=widgets).start()
 
     for (i, (path, label)) in enumerate(zip(paths, labels)):

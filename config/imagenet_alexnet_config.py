@@ -20,7 +20,7 @@ NUM_TEST_IMAGES = 50 * NUM_CLASSES
 MX_OUTPUT = "imagenet"
 TRAIN_MX_LIST = path.sep.join([MX_OUTPUT, "lists/train.lst"])
 VAL_MX_LIST = path.sep.join([MX_OUTPUT, "lists/val.lst"])
-TEST_MX_LIST = path.sep.join([MX_OUTPUT, "list/test.lst"])
+TEST_MX_LIST = path.sep.join([MX_OUTPUT, "lists/test.lst"])
 
 TRAIN_MX_REC = path.sep.join([MX_OUTPUT, "rec/train/rec"])
 VAL_MX_REC = path.sep.join([MX_OUTPUT, "rec/val.rec"])
