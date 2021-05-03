@@ -49,6 +49,6 @@ for (dType, paths, labels, outputPath) in datasets:
 
 print("[INFO] serializing means...")
 D = {"R": np.mean(R), "G": np.mean(G), "B": np.mean(B)}
-f.open(config.DATABASE_MEAN, "w")
+f = open(config.DATABASE_MEAN, "w")
 f.write(json.dumps(D))
 f.close()
