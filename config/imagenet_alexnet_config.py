@@ -1,6 +1,6 @@
 from os import path
 
-BASE_PATH = "imagenet/ILSVRC2015"
+BASE_PATH = "/home/hectoregm/Projects/imagenet/ILSVRC2015"
 
 IMAGES_PATH = path.sep.join([BASE_PATH, "Data/CLS-LOC"])
 IMAGE_SETS_PATH = path.sep.join([BASE_PATH, "ImageSets/CLS-LOC"])

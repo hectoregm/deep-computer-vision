@@ -19,7 +19,7 @@ split = train_test_split(trainPaths, trainLabels, test_size=config.NUM_TEST_IMAG
 datasets = [
     ("train", trainPaths, trainLabels, config.TRAIN_MX_LIST),
     ("val", valPaths, valLabels, config.VAL_MX_LIST),
-    ("test", testPaths, testPaths, config.TEST_MX_LIST)
+    ("test", testPaths, testLabels, config.TEST_MX_LIST)
 ]
 
 (R, G, B) = ([], [], [])
