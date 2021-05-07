@@ -22,11 +22,11 @@ TRAIN_MX_LIST = path.sep.join([MX_OUTPUT, "lists/train.lst"])
 VAL_MX_LIST = path.sep.join([MX_OUTPUT, "lists/val.lst"])
 TEST_MX_LIST = path.sep.join([MX_OUTPUT, "lists/test.lst"])
 
-TRAIN_MX_REC = path.sep.join([MX_OUTPUT, "rec/train/rec"])
-VAL_MX_REC = path.sep.join([MX_OUTPUT, "rec/val.rec"])
+TRAIN_MX_REC = "/home/hectoregm/Projects/deep-computer-vision/imagenet/rec/train.rec"#path.sep.join([MX_OUTPUT, "rec/train.rec"])
+VAL_MX_REC = "/home/hectoregm/Projects/deep-computer-vision/imagenet/rec/val.rec"#path.sep.join([MX_OUTPUT, "rec/val.rec"])
 TEST_MX_REC = path.sep.join([MX_OUTPUT, "rec/test.rec"])
 
 DATABASE_MEAN = "output/imagenet_mean.json"
 
 BATCH_SIZE = 128
-NUM_DEVICES = 8
+NUM_DEVICES = 1

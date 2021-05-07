@@ -4,3 +4,5 @@ datasets
 .DS_Store
 output
 imagenet
+checkpoints
+training_0.log
