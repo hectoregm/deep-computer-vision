@@ -12,7 +12,7 @@ ap.add_argument("-e", "--epoch", type=int, required=True, help="epoch # to load"
 args = vars(ap.parse_args())
 
 
-means = json.loads(open(config.DATABASE_MEAN).read())
+means = json.loads(open(config.DATASET_MEAN).read())
 testIter = mx.io.ImageRecordIter(
     path_imgrec=config.TEST_MX_REC,
     data_shape=(3, 227, 227),
