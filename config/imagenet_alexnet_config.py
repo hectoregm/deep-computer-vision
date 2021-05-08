@@ -26,7 +26,7 @@ TRAIN_MX_REC = "/home/hectoregm/Projects/deep-computer-vision/imagenet/rec/train
 VAL_MX_REC = "/home/hectoregm/Projects/deep-computer-vision/imagenet/rec/val.rec"#path.sep.join([MX_OUTPUT, "rec/val.rec"])
 TEST_MX_REC = path.sep.join([MX_OUTPUT, "rec/test.rec"])
 
-DATABASE_MEAN = "output/imagenet_mean.json"
+DATASET_MEAN = "output/imagenet_mean.json"
 
 BATCH_SIZE = 128
 NUM_DEVICES = 1

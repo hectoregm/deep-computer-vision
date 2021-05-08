@@ -14,7 +14,7 @@ args = vars(ap.parse_args())
 
 logging.basicConfig(level=logging.DEBUG, filename="training_{}.log".format(args["start_epoch"]), filemode="w")
 
-means = json.loads(open(config.DATABASE_MEAN).read())
+means = json.loads(open(config.DATASET_MEAN).read())
 batchSize = config.BATCH_SIZE * config.NUM_DEVICES
 print(config.TRAIN_MX_REC)
 trainIter = mx.io.ImageRecordIter(
@@ -40,7 +40,7 @@ valIter = mx.io.ImageRecordIter(
     mean_b=means["B"]
 )
 
-opt = mx.optimizer.SGD(learning_rate=1e-2, momentum=0.9, wd=0.0005, rescale_grad=1.0 / batchSize)
+opt = mx.optimizer.SGD(learning_rate=1e-3, momentum=0.9, wd=0.0005, rescale_grad=1.0 / batchSize)
 
 checkpointsPath = os.path.sep.join([args["checkpoints"], args["prefix"]])
 argParams = None
@@ -64,7 +64,7 @@ model = mx.model.FeedForward(
     arg_params=argParams,
     aux_params=auxParams,
     optimizer=opt,
-    num_epoch=90,
+    num_epoch=30,
     begin_epoch=args["start_epoch"]
 )
 
